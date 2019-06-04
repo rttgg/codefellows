@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <body>
+    <head>
+        <header>
+            Favorite Food?
+        </header>
+    </head>
+    
+    <main>
+        <h1 style='color:purple; background-color:green';>
+            Class 1 Lab
+        </h1>
+    </main>
+        <p>
+            You won this coupon for your favorite food. You can use it for one year but please don't eat too much!! Because it will automatically delete your coupon from this promotion!! </p>
+       
+        <p style='color:green; background-color: yellow';>What is your favorite food?</p>
+        <p style='color:yellow; background-color: black';>How often do you like to eat it?</p>
+        <p style='color:red; background-color: purple';>When is the last time you have it?</p>
+        <p style='color:blue; background-color: yellowgreen';>How much do you spend for your favorit food?</p>
+        
+        <footer>secret questions</footer>
+        <script>
+            var yourFavorite = prompt('What is your favorite food?');
+            var howOften = prompt('How often do you like to eat it?');
+            var lastTime = prompt('When is the last time you have it?');
+            var howMuch = prompt('How much do you spend for your favorit food?')
+            var yourFavoriteFood = 'My favorite food is ' + yourFavorite + ' and i like to have it ' + howOften + '. The last time i had it is ' + lastTime + ' and I spent ' + howMuch + ' dollar.';
+            alert(yourFavoriteFood);
+            console.log('yourFavorite : ' + yourFavorite);
+        </script>
+    </body>
+</html>
