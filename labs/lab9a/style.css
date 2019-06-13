@@ -95,6 +95,7 @@ section div {
 
 p {
     overflow-y: scroll;
+    font-style: italic;
 }
 
 
